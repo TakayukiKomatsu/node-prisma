@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@prisma/engines@3.6.0-24.dc520b92b1ebb2d28dc3161f9f82e875bd35d727":
+  version "3.6.0-24.dc520b92b1ebb2d28dc3161f9f82e875bd35d727"
+  resolved "https://registry.yarnpkg.com/@prisma/engines/-/engines-3.6.0-24.dc520b92b1ebb2d28dc3161f9f82e875bd35d727.tgz#c68ede6aeffa9ef7743a32cfa6daf9172a4e15b3"
+  integrity sha512-dRClHS7DsTVchDKzeG72OaEyeDskCv91pnZ72Fftn0mp4BkUvX2LvWup65hCNzwwQm5IDd6A88APldKDnMiEMA==
+
 "@types/bluebird@*":
   version "3.5.36"
   resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.36.tgz#00d9301d4dc35c2f6465a8aec634bb533674c652"
@@ -519,6 +524,13 @@ postgres-interval@^1.1.0:
   integrity sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==
   dependencies:
     xtend "^4.0.0"
+
+prisma@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-3.6.0.tgz#99532abc02e045e58c6133a19771bdeb28cecdbe"
+  integrity sha512-6SqgHS/5Rq6HtHjsWsTxlj+ySamGyCLBUQfotc2lStOjPv52IQuDVpp58GieNqc9VnfuFyHUvTZw7aQB+G2fvQ==
+  dependencies:
+    "@prisma/engines" "3.6.0-24.dc520b92b1ebb2d28dc3161f9f82e875bd35d727"
 
 proxy-addr@~2.0.5:
   version "2.0.7"
